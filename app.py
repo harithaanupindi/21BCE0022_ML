@@ -13,7 +13,7 @@ cache = redis.Redis(host='localhost', port=6379, db=0)
 # Database connection
 db_conn = psycopg2.connect(
     host="localhost",
-    database="ML",
+    database="document_db",
     user="postgres",
     password="postgres"
 )

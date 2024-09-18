@@ -17,8 +17,8 @@ documents = [
 db_conn = psycopg2.connect(
     host="localhost",
     database="document_db",
-    user="your_user",
-    password="your_password"
+    user="postgres",
+    password="postgres"
 )
 
 cursor = db_conn.cursor()
